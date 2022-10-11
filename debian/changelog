@@ -1,0 +1,84 @@
+libtask-weaken-perl (1.06-1) unstable; urgency=medium
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-* headers for switch to salsa.debian.org
+
+  [ gregor herrmann ]
+  * Import upstream version 1.06.
+  * Update years of packaging copyright.
+  * Declare compliance with Debian Policy 4.1.4.
+  * Bump debhelper compatibility level to 10.
+
+ -- gregor herrmann <gregoa@debian.org>  Fri, 11 May 2018 20:03:27 +0200
+
+libtask-weaken-perl (1.05-1) unstable; urgency=medium
+
+  [ gregor herrmann ]
+  * Strip trailing slash from metacpan URLs.
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-Browser URL to cgit web frontend
+  * debian/control: Use HTTPS transport protocol for Vcs-Git URI
+
+  [ gregor herrmann ]
+  * debian/copyright: change Copyright-Format 1.0 URL to HTTPS.
+
+  [ Alex Muntada ]
+  * Remove inactive pkg-perl members from Uploaders.
+
+  [ gregor herrmann ]
+  * New upstream release.
+  * Add debian/upstream/metadata.
+  * Update upstream contact info.
+  * Update years of packaging copyright.
+  * Drop stanza about removed files from debian/copyright.
+  * Install new CONTRIBUTING file.
+  * Mark package as autopkgtest-able.
+  * Declare compliance with Debian Policy 4.1.2.
+  * Bump debhelper compatibility level to 9.
+  * Fix typo in long description. Thanks to lintian.
+
+ -- gregor herrmann <gregoa@debian.org>  Tue, 26 Dec 2017 21:03:48 +0100
+
+libtask-weaken-perl (1.04-1) unstable; urgency=low
+
+  * Take over for the Debian Perl Group with maintainer's permission
+    (https://lists.debian.org/debian-perl/2013/03/msg00034.html)
+  * debian/control: Added: Vcs-Git field (source stanza); Vcs-Browser
+    field (source stanza). Changed: Homepage field changed to
+    metacpan.org URL; Maintainer set to Debian Perl Group <pkg-perl-
+    maintainers@lists.alioth.debian.org> (was: Christian Sánchez
+    <csanchez@unplug.org.ve>); Christian Sánchez
+    <csanchez@unplug.org.ve> moved to Uploaders.
+  * debian/watch: use metacpan-based URL.
+
+  * New upstream release.
+  * Don't install README anymore.
+  * debian/copyright: switch formatting to Copyright-Format 1.0. Add years
+    of upstream copyright, add info about third-party files, update
+    license paragraphs.
+  * debian/control: remove version from perl (build) dependency, remove
+    perl-modules.
+  * Bump debhelper compatibility level to 8.
+  * Add /me to Uploaders.
+  * Set Standards-Version to 3.9.4 (no changes).
+  * Update short and long description.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 30 Mar 2013 14:24:40 +0100
+
+libtask-weaken-perl (1.03-1) unstable; urgency=low
+
+  * New upstream relase
+  - control:
+      + Bumped Standards-Version to 3.8.3 (no changes)
+      + Now depends on debhelper >= 7
+  * Updated debian/copyright
+  * Updated debian/rules to dh7 short format
+
+ -- Christian Sánchez <csanchez@unplug.org.ve>  Mon, 02 Nov 2009 20:32:31 -0430
+
+libtask-weaken-perl (1.02-1) unstable; urgency=low
+
+  * Initial Release. (Closes: #457532)
+
+ -- Christian Sánchez <csanchez@unplug.org.ve>  Sun, 23 Dec 2007 07:55:22 +0000
